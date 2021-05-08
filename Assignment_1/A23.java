@@ -18,8 +18,8 @@ bin = bin / 8;
 i = 0;
 while(dec != 0)
 {
-hex[i] = dec % 8;
-dec = dec / 8;
+hex[i] = dec % 16;
+dec = dec / 16;
 i++;
 }
 System.out.print("Hexadecimnal Value :");
